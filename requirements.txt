@@ -1,6 +1,5 @@
 asn1crypto==0.24.0
 beautifulsoup4==4.8.1
-Brlapi==0.6.7
 certifi==2018.8.24
 chardet==3.0.4
 chrome-gnome-shell==0.0.0
