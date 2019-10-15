@@ -16,16 +16,13 @@ imageio==2.6.1
 imageio-ffmpeg==0.3.0
 itsdangerous==1.1.0
 Jinja2==2.10.3
-kernelstub==3.1.0
 keyring==17.1.1
 keyrings.alt==3.1.1
 language-selector==0.1
 louis==3.8.0
 macaroonbakery==1.2.1
 MarkupSafe==1.1.1
-moviepy==1.0.1
 netifaces==0.10.4
-numpy==1.17.2
 pafy==0.5.4
 pbr==5.4.3
 Pillow==6.2.0
