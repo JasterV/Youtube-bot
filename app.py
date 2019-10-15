@@ -2,10 +2,12 @@ import telebot
 import time
 import pafy
 import os
+from flask import Flask
 
-bot_token = os.getenv('BOT_TOKEN')
+
+bot_token = '837420348:AAEY2WT04zBjpCHYvOzCdy4FHhZf8jX6udE'
 bot = telebot.TeleBot(token=bot_token)
-
+server = Flask(__name__)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
@@ -33,6 +35,13 @@ def download_song(message):
     bestaudio = video.getbestaudio()
     filename = bestaudio.download()
     return filename
+
+
+@server.route("/")
+def webhook():
+    bot.remove_webhook()
+    bot.set_webhook(url='https://cryptic-crag-46329.herokuapp.com/' + bot_token)
+    return "!", 200
 
 
 while True:

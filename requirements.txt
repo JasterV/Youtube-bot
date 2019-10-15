@@ -42,6 +42,7 @@ prettytable==0.7.2
 proglog==0.1.9
 protobuf==3.6.1
 pycairo==1.16.2
+pycrypto==2.6.1
 pycups==1.9.73
 pydbus==0.6.0
 PyGObject==3.32.0
@@ -53,6 +54,8 @@ python-apt==1.8.4
 python-telegram-bot==12.1.1
 python-xlib==0.23
 pytz==2018.9
+pyxdg==0.25
+PyYAML==3.13
 Repoman==1.0.2
 requests==2.21.0
 requests-unixsocket==0.1.5
@@ -70,6 +73,7 @@ tqdm==4.36.1
 ubuntu-advantage-tools==19.2
 ubuntu-drivers-common==0.0.0
 ufw==0.36
+urllib3==1.24.1
 Werkzeug==0.16.0
 xkit==0.0.0
 youtube-dl==2019.9.28
