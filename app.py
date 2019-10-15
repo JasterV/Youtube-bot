@@ -2,12 +2,11 @@ import telebot
 import time
 import pafy
 import os
-from flask import Flask
 
 
 bot_token = '837420348:AAEY2WT04zBjpCHYvOzCdy4FHhZf8jX6udE'
 bot = telebot.TeleBot(token=bot_token)
-server = Flask(__name__)
+
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
