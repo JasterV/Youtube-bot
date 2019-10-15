@@ -3,7 +3,7 @@ import time
 import pafy
 import os
 
-bot_token = '837420348:AAEY2WT04zBjpCHYvOzCdy4FHhZf8jX6udE'
+bot_token = os.getenv('BOT_TOKEN')
 bot = telebot.TeleBot(token=bot_token)
 
 
