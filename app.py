@@ -37,13 +37,6 @@ def download_song(message):
     return filename
 
 
-@server.route("/")
-def webhook():
-    bot.remove_webhook()
-    bot.set_webhook(url='https://cryptic-crag-46329.herokuapp.com/' + bot_token)
-    return "!", 200
-
-
 while True:
     try:
         bot.polling()
